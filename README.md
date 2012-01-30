@@ -14,3 +14,5 @@ Installation
 
 - ~/IntelliJIdea11 for full version of IDEA 11
 - ~/IdeaIC11 for community edition of IDEA 11
+
+Also works fine with PyCharm.
