@@ -331,7 +331,7 @@
     </option>
     <option name="CSS.COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="8080" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -341,7 +341,7 @@
     </option>
     <option name="CSS.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="ff00ff" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -351,7 +351,7 @@
     </option>
     <option name="CSS.IDENT">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -359,9 +359,19 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="ff4164" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="CSS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="ff00" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -371,7 +381,7 @@
     </option>
     <option name="CSS.NUMBER">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="ff00" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -381,7 +391,7 @@
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -391,7 +401,7 @@
     </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="8000" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -401,7 +411,7 @@
     </option>
     <option name="CSS.STRING">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="ffff00" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -411,7 +421,7 @@
     </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -421,7 +431,7 @@
     </option>
     <option name="CSS.URL">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="ffc800" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -3169,6 +3179,26 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="Special symbol">
+      <value>
+        <option name="FOREGROUND" value="bebebe" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="Standard function">
+      <value>
+        <option name="FOREGROUND" value="ff00ff" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="Static field">
       <value>
         <option name="FOREGROUND" value="d33682" />
@@ -3339,6 +3369,16 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="Type or constructor">
+      <value>
+        <option name="FOREGROUND" value="ff8000" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="Type parameter">
       <value>
         <option name="FOREGROUND" value="2688d1" />
@@ -3459,6 +3499,26 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="Wrong number">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="ff4164" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="Wrong string">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="ff4164" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="Wrong string literal">
       <value>
         <option name="FOREGROUND" />
@@ -3466,6 +3526,16 @@
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" value="dc322f" />
         <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="Wrong token">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="ff4164" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
@@ -3869,5 +3939,14 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="Keyword">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
   </attributes>
 </scheme>
